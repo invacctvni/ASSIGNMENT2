@@ -1,0 +1,49 @@
+/*get body backgroudn color*/
+body {
+    background-color: lightcyan;
+}
+
+/*set color and text alight for headings */
+h1, h2{
+    color: rebeccapurple;
+    text-align: center;
+}
+
+/*set font size for heading 2*/
+h2 {
+    font-size: 20px;
+}
+
+/*set the gallery position*/
+#galleryImg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/*set the thumbar position*/
+#thumb-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*set the thumbar image transition features when clicked*/
+#thumb-bar img {
+    margin: 0 10px;
+    transition: 0.2s linear all;
+    /*border-radius: 50%;*/
+}
+
+/*set the thumbar image clicked effect*/
+#thumb-bar img:hover {
+    transform: scale(1.2) translateY(-10px);
+    border: 2px blue solid;
+}
+
+/*set the image title font size and color*/
+#displayImgTitle {
+    font-size: 20px;
+    color: darkred;
+}
